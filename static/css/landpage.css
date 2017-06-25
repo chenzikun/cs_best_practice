@@ -1,0 +1,128 @@
+/* 全局 */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nav */
+.topnav {
+    font-size: 14px;
+    margin: 0 40px 0;
+}
+
+.nav-margin {
+    margin-bottom: 50px;
+}
+
+/* section a */
+.section-a {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/landpage/intro-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.section-a-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-transform: capitalize;
+}
+
+.section-a-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.section-a-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.section-a-hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.network-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+    .section-a-message {
+        padding-bottom: 15%;
+    }
+
+    .section-a-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.section-a-ul > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.section-a-ul > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* section b */
+.section-b {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-b-hr {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+/* section c */
+.section-c {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url('../images/landpage/banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.section-c-button {
+    /*float: right;*/
+    margin-top: 20px;
+}
+
+.section-c h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+/* footer */
+footer {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.copyright {
+    margin: 15px 0 0;
+}
+
+

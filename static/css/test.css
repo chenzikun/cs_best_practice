@@ -1,0 +1,16 @@
+
+body {
+    margin: 0 50px;
+}
+
+.a-block {
+    width: 200px;
+    height: 30px;
+    background-color: #eee;
+    display: block;
+    border: solid 1px #666;
+}
+
+#table {
+    margin-top: 70px;
+}

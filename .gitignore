@@ -1,0 +1,3 @@
+static/application/node_modules
+.idea
+*.pyc

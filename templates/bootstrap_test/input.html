@@ -1,0 +1,66 @@
+<div id="input">
+    <h1>三、表单</h1>
+    <!-- form-inline: 内联表单，让表单居于一行 -->
+    <form action="" class="form-inline" >
+        <!-- for与ID绑定 -->
+        <div class="form-group">
+            <label for="email">电子邮件</label>
+            <!-- form-control: 让表单成为一行 -->
+            <input class="form-control" type="email" name="email" id="email" placeholder="请输入你的电子邮件">
+        </div>
+        <!-- form-group: 让变单间拥有合适的距离 -->
+        <div class="form-group has-feedback">
+            <label for="password">密码</label>
+            <input class="form-control" type="password" name="password" id="password" placeholder="请输入你的密码">
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+
+        </div>
+
+        <h4>表单合组</h4>
+        <div class="input-group">
+            <div class="input-group-addon">$</div>
+            <input type="text" name="" id="" class="form-control" placeholder="请输入你的价格">
+            <div class="input-group-addon">.00</div>
+        </div>
+    </form>
+
+    <h4>水平排列</h4>
+    <p style="color: green">lable和input居于一行</p>
+    <form action="" class="form-horizontal has-success">
+        <div class="form-group">
+            <lable for="em" class="control-label col-sm-3">电子邮件</lable>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" id="em">
+            </div>
+        </div>
+
+        <div class="checkbox">
+            <lable>
+                <input type="checkbox" name="favor" id="">音乐
+            </lable>
+        </div>
+        <div class="checkbox disabled">
+            <lable>
+                <input type="checkbox" disabled name="favor" id="">体育
+            </lable>
+        </div>
+
+        <lable class="checkbox-inline">
+            <input type="checkbox" disabled name="favor" id="">体育
+        </lable>
+        <lable class="checkbox-inline">
+            <input type="checkbox" disabled name="favor" id="">体育
+        </lable>
+        <lable class="radio-inline">
+            <input type="radio" disabled name="favor" id="">体育
+        </lable>
+
+    <select class="form-control" name="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+
+    </form>
+</div>
