@@ -1,3 +1,4 @@
 static/application/node_modules
 .idea
 *.pyc
+static/application/node_modules

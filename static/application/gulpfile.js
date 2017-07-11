@@ -14,7 +14,7 @@ gulp.task('server', function () {
         env: {'NODE_ENV': 'development'}
     }).on('start', function () {
         browserSync.init({
-            proxy: 'http://localhost:5100',
+            proxy: 'http://localhost:5020',
             files: [
                 "../css/**/*.*",
                 "../js/**/*.*",
@@ -22,7 +22,7 @@ gulp.task('server', function () {
                 "../../templates/**/*.*",
                 "./data.json"
             ],
-            port: 5050
+            port: 5200
         }, function () {
             console.log("browser refreshed.");
         });

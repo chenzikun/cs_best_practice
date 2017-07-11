@@ -34,6 +34,13 @@ app.get('/', function (req, res) {
     });
 });
 
+// agency
+app.get('/agency', function (req, res) {
+    res.render('practice/agency.html', {
+        data: data.agency
+    });
+});
+
 // 模板渲染 homepage首页
 app.get('/homepage', function (req, res) {
     res.render('homepage.html', {
@@ -41,7 +48,14 @@ app.get('/homepage', function (req, res) {
     });
 });
 
-var thisTemplatePort = 5100;
+// 模板渲染 js练习页
+app.get('/js/demo', function (req, res) {
+    res.render('javascript_test/demo.html', {
+        data: data.index
+    });
+});
+
+var thisTemplatePort = 5020;
 // 启动服务
 app.listen(thisTemplatePort);
 console.info('监听成功，请在浏览器访问 http://localhost:', thisTemplatePort);

@@ -2,3 +2,10 @@
 
 help:
 	@echo "make gulp"
+
+gulp:
+	@cd static/application;nohup gulp server &
+
+run:
+	@python run.py &
+

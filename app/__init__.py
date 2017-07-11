@@ -1,8 +1,10 @@
 from flask import Flask
 
 
+
+
 class Application(Flask):
-    def __init__(self):
+    def __init__(self, config):
         super(Application, self).__init__(__name__)
 
     def _init_blueprint(self, *blueprints):
@@ -11,7 +13,7 @@ class Application(Flask):
 
 
 def create_app():
-    app = Application()
+    app = Application("config_file")
 
     from app.homepage.view import homepage_bp
     blueprints = [homepage_bp]
