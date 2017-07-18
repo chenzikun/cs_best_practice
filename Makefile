@@ -1,11 +1,9 @@
-.CHENZIKUN:	make
+.PHONY:	help
 
 help:
 	@echo "make gulp"
 
 gulp:
-	@cd static/application;nohup gulp server &
+	@cd app;nohup gulp server &
 
-run:
-	@python run.py &
 

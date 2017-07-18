@@ -1,4 +1,4 @@
-static/application/node_modules
 .idea
-*.pyc
-static/application/node_modules
+app/node_modules
+.DS_Store
+docs/build
