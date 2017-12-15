@@ -1,0 +1,147 @@
+nohup: gulp: No such file or directory
+nohup: gulp: No such file or directory
+nohup: gulp: No such file or directory
+[20:58:43] Using gulpfile ~/Documents/cs_best_practice/app/gulpfile.js
+[20:58:43] Starting 'server'...
+[20:58:50] Finished 'server' after 7.11 s
+[20:58:51] [nodemon] 1.11.0
+[20:58:51] [nodemon] to restart at any time, enter `rs`
+[20:58:51] [nodemon] watching: *.*
+[20:58:51] [nodemon] starting `node app.js`
+监听成功，请在浏览器访问 http://localhost: 5020
+[BS] Proxying: http://localhost:5020
+[BS] Access URLs:
+ -------------------------------------
+       Local: http://localhost:5200
+    External: http://192.168.1.18:5200
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.18:3001
+ -------------------------------------
+[BS] Watching files...
+browser refreshed.
+[20:59:49] [nodemon] app crashed - waiting for file changes before starting...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[00:34:16] Using gulpfile ~/Documents/cs_best_practice/gulpfile.js
+[00:34:16] Starting 'server'...
+[00:34:16] Finished 'server' after 129 ms
+[00:34:16] [nodemon] 1.11.0
+[00:34:16] [nodemon] to restart at any time, enter `rs`
+[00:34:16] [nodemon] watching: *.*
+[00:34:16] [nodemon] starting `node app.js`
+[Browsersync] Proxying: http://localhost:5020
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:5200
+    External: http://192.168.31.38:5200
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.31.38:3001
+ --------------------------------------
+[Browsersync] Watching files...
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+[Browsersync] Reloading Browsers...
+[Browsersync] Reloading Browsers...
+[Browsersync] Reloading Browsers...
+[Browsersync] Reloading Browsers...
+[00:41:32] [nodemon] restarting due to changes...
+[Browsersync] Reloading Browsers...
+[00:41:33] [nodemon] starting `node app.js`
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+events.js:163
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::5020
+    at Object.exports._errnoException (util.js:1034:11)
+    at exports._exceptionWithHostPort (util.js:1057:20)
+    at Server._listen2 (net.js:1270:14)
+    at listen (net.js:1306:10)
+    at Server.listen (net.js:1397:7)
+    at Function.listen (/Users/chenzikun/Documents/cs_best_practice/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/chenzikun/Documents/cs_best_practice/app.js:66:5)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+[00:41:34] [nodemon] app crashed - waiting for file changes before starting...
+[00:41:52] [nodemon] restarting due to changes...
+[00:41:52] [nodemon] starting `node app.js`
+browser refreshed.
+[Browsersync] Reloading Browsers...
+[00:41:52] [nodemon] restarting due to changes...
+[Browsersync] Reloading Browsers...
+[00:41:52] [nodemon] starting `node app.js`
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+events.js:163
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::5020
+    at Object.exports._errnoException (util.js:1034:11)
+    at exports._exceptionWithHostPort (util.js:1057:20)
+    at Server._listen2 (net.js:1270:14)
+    at listen (net.js:1306:10)
+    at Server.listen (net.js:1397:7)
+    at Function.listen (/Users/chenzikun/Documents/cs_best_practice/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/chenzikun/Documents/cs_best_practice/app.js:66:5)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+[00:41:53] [nodemon] app crashed - waiting for file changes before starting...
+[16:54:22] Using gulpfile ~/czk/cs_best_practice/gulpfile.js
+[16:54:22] Starting 'server'...
+[16:54:22] Finished 'server' after 82 ms
+[16:54:22] [nodemon] 1.11.0
+[16:54:22] [nodemon] to restart at any time, enter `rs`
+[16:54:22] [nodemon] watching: *.*
+[16:54:22] [nodemon] starting `node app.js`
+[Browsersync] Proxying: http://localhost:5020
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:5201
+    External: http://192.168.2.27:5201
+ -------------------------------------
+          UI: http://localhost:3002
+ UI External: http://192.168.2.27:3002
+ -------------------------------------
+[Browsersync] Watching files...
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+[16:55:27] [nodemon] app crashed - waiting for file changes before starting...
+[23:54:14] Using gulpfile ~/czk/cs_best_practice/gulpfile.js
+[23:54:14] Starting 'server'...
+[23:54:14] Finished 'server' after 137 ms
+[23:54:14] [nodemon] 1.11.0
+[23:54:14] [nodemon] to restart at any time, enter `rs`
+[23:54:14] [nodemon] watching: *.*
+[23:54:14] [nodemon] starting `node app.js`
+[Browsersync] Proxying: http://localhost:5020
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:5200
+    External: http://192.168.31.38:5200
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.31.38:3001
+ --------------------------------------
+[Browsersync] Watching files...
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+[23:56:19] [nodemon] restarting due to changes...
+[23:56:19] [nodemon] starting `node app.js`
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200
+[23:56:49] [nodemon] restarting due to changes...
+[23:56:49] [nodemon] starting `node app.js`
+browser refreshed.
+监听成功，请在浏览器访问 http://localhost: 5200

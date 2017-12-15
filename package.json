@@ -1,0 +1,35 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "cs最佳实践",
+    "main": "app.js",
+    "dependencies": {
+        "browser-sync": "^2.18.12",
+        "express": "^4.15.3",
+        "gulp": "^3.9.1 ",
+        "gulp-express": "^0.3.5",
+        "gulp-nodemon": "^2.2.1",
+        "js-yaml": "^3.10.0",
+        "nunjucks": "^3.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "chenzikunczk@gmail.com",
+    "license": "ISC",
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chenzikun/demo_cs.git"
+    },
+    "keywords": [
+        "czk19911001"
+    ],
+    "bugs": {
+        "url": "https://github.com/chenzikun/demo_cs/issues"
+    },
+    "homepage": "https://github.com/chenzikun/demo_cs#readme"
+}

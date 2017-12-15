@@ -1,9 +1,10 @@
 .PHONY:	help
 
 help:
-	@echo "make gulp"
+	@echo "make dev | server"
 
-gulp:
-	@cd app;nohup gulp server &
+dev:
+	@gulp dev
 
-
+server:
+	@nohup gulp server &
